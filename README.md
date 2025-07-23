@@ -1,14 +1,14 @@
 # zkp-blockchain-project
-# ZKP và Ứng Dụng Trong Công Nghệ Blockchain
+# Đảm bảo tính riêng tư của giao dịch trong mạng blockchain sử dụng ZKP
 
-Đây là project thực tập phát triển ứng dụng giao dịch tiền riêng tư sử dụng bằng chứng không tiết lộ thông tin (Zero-Knowledge Proofs - ZKP) trên nền tảng blockchain.
+Đây là project phát triển ứng dụng giao dịch riêng tư sử dụng bằng chứng không tiết lộ thông tin (Zero-Knowledge Proofs - ZKP) trên nền tảng blockchain.
 
 ## Công nghệ sử dụng
 - Blockchain (Ethereum)
 - Hợp đồng thông minh Solidity
-- ZKP: zk-SNARK, Groth16
+- ZKP: Groth16
 - Docker container để triển khai môi trường thử nghiệm
-- MetaMask, Node.js
+- MetaMask
 
 ## Hướng dẫn
 1. Cài đặt môi trường theo [docs/install.md]
