@@ -11,5 +11,9 @@
 - MetaMask
 
 ## Hướng dẫn
-1. Cài đặt môi trường theo [docs/install.md]
-2. Triển khai hợp đồng thông minh: `scripts/deploy.sh`
+1. Cài đặt môi trường
+- 
+2. Triển khai hợp đồng thông minh
+-
+3. Chạy thử giao dịch demo
+- 
