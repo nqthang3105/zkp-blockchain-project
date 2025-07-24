@@ -22,7 +22,7 @@ This project implements privacy-preserving transaction protocols on blockchain p
 <img width="1445" height="699" alt="image" src="https://github.com/user-attachments/assets/c4b213bf-44dc-49bf-86dd-32f242932e70" />
 
   **Deploy besu IBFT 2.0 network**
-  - Follow the instruction on this link: https://besu.hyperledger.org/private-networks/tutorials/quickstart. 
+  - Follow the instruction on this link: https://besu.hyperledger.org/private-networks/tutorials/quickstart. After successfully deploying, we will get a folder that looks like quorum-test-network. 
   **Set up Metamask**
   - Install the MetaMask browser extension and configure it to connect to the custom Quorum IBFT network by adding a new custom network with network details:
      + Network Name: Localhost 8545
