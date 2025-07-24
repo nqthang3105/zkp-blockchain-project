@@ -18,11 +18,11 @@ This project implements privacy-preserving transaction protocols on blockchain p
 ## Setting & Runing
 
 ### 1. Environment setup
-- **Deploy besu IBFT 2.0 network**
-  Follow the instruction on this link: https://besu.hyperledger.org/private-networks/tutorials/quickstart.
-- **Set up Metamask**
-  Install the MetaMask browser extension and configure it to connect to the custom Quorum IBFT network by adding a new custom network. Import test accounts using private keys stored in ... to use test ethereum.
-- **Set up Remix IDE**
+**Deploy besu IBFT 2.0 network**
+- Follow the instruction on this link: https://besu.hyperledger.org/private-networks/tutorials/quickstart.
+**Set up Metamask**
+- Install the MetaMask browser extension and configure it to connect to the custom Quorum IBFT network by adding a new custom network. Import test accounts using private keys stored in ... to use test ethereum.
+**Set up Remix IDE**
 - Open https://remix.ethereum.org/ and activate ZoKrates plugin.
 - Add circuit file [balance_check.zok](contracts/circuit/balance_check.zok) to a new workspace.
 - Change solidity compiler to 0.8.19 or lower.
