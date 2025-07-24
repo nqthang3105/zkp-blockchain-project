@@ -22,14 +22,14 @@ This project implements privacy-preserving transaction protocols on blockchain p
 <img width="1445" height="699" alt="image" src="https://github.com/user-attachments/assets/c4b213bf-44dc-49bf-86dd-32f242932e70" />
 
   **Deploy besu IBFT 2.0 network**
-  - Follow the instruction on this link: https://besu.hyperledger.org/private-networks/tutorials/quickstart.
+  - Follow the instruction on this link: https://besu.hyperledger.org/private-networks/tutorials/quickstart. 
   **Set up Metamask**
   - Install the MetaMask browser extension and configure it to connect to the custom Quorum IBFT network by adding a new custom network with network details:
      + Network Name: Localhost 8545
      + New RPC URL: http://localhost:8545
      + Chain ID: 1337
      + Currency Symbol: ETH
-  - Import test accounts using private keys stored in ... to use test ethereum.
+  - Import test accounts using private keys stored in [genesis.json](quorum-test-network/config/besu/genesis.json) to use test ethereum.
   **Set up Remix IDE**
   - Open https://remix.ethereum.org/ and activate ZoKrates plugin.
   - Add circuit file [balance_check.zok](contracts/circuit/balance_check.zok) to a new workspace.
