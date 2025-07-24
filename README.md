@@ -43,3 +43,4 @@ This project implements privacy-preserving transaction protocols on blockchain p
   - Deploy & run transaction with "Injected Provider - Metamask" environment, imported account and TransferVerifier.sol contract option.
 ### 3. Demo 
   - After successfully deploying, the verifier will expose a public function that takes the proof paramaters generated from Zokrates plugin, the amount to be transfered and the receiver's address as input and returns the result whether the transaction is successful or not, and if successful, it will update the smart contract’s balance and the recipient’s balance accordingly.
+
