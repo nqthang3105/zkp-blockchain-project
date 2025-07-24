@@ -18,7 +18,9 @@ This project implements privacy-preserving transaction protocols on blockchain p
 ## Setting & Runing
 
 ### 1. Environment setup
+
 <img width="1445" height="699" alt="image" src="https://github.com/user-attachments/assets/c4b213bf-44dc-49bf-86dd-32f242932e70" />
+
   **Deploy besu IBFT 2.0 network**
   - Follow the instruction on this link: https://besu.hyperledger.org/private-networks/tutorials/quickstart.
   **Set up Metamask**
@@ -33,7 +35,9 @@ This project implements privacy-preserving transaction protocols on blockchain p
   - Add circuit file [balance_check.zok](contracts/circuit/balance_check.zok) to a new workspace.
   - Change solidity compiler to 0.8.19 or lower.
 ### 2. Deploy smart contract
+
 <img width="1056" height="696" alt="image" src="https://github.com/user-attachments/assets/97b4c1c5-87e2-444e-920e-4ba4eed4bb11" />
+
   - Run ZoKrates setup using its plugin in Remix IDE. After running successfully, files in contracts/circuit will be created.
   - Create and compile a smart contract called TransferVerifier.sol that inherits from [verifier.sol](contracts/circuit/verifier.sol) to verify balances and update the sender’s and receiver’s balances after a transaction.
   - Deploy & run transaction with "Injected Provider - Metamask" environment, imported account and TransferVerifier.sol contract option.
