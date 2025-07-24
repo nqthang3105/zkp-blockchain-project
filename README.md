@@ -22,10 +22,10 @@ This project implements privacy-preserving transaction protocols on blockchain p
   - Follow the instruction on this link: https://besu.hyperledger.org/private-networks/tutorials/quickstart.
   **Set up Metamask**
   - Install the MetaMask browser extension and configure it to connect to the custom Quorum IBFT network by adding a new custom network with network details:
-     Network Name: Localhost 8545
-     New RPC URL: http://localhost:8545
-     Chain ID: 1337
-     Currency Symbol: ETH
+     + Network Name: Localhost 8545
+     + New RPC URL: http://localhost:8545
+     + Chain ID: 1337
+     + Currency Symbol: ETH
   - Import test accounts using private keys stored in ... to use test ethereum.
   **Set up Remix IDE**
   - Open https://remix.ethereum.org/ and activate ZoKrates plugin.
